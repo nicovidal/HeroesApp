@@ -18,11 +18,11 @@ const routes: Routes = [
   },
   {
     path:'',
-    redirectTo:'herores',
+    redirectTo:'heroes',
     pathMatch:'full'
   },
   {
-    path: '***',
+    path: '**',
     redirectTo:'404'
   },
 ];
